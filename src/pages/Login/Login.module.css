@@ -1,0 +1,108 @@
+
+.left{
+    background-color:#634699;
+    position:absolute;
+    left:0;
+    top:0;
+    border-radius:20px;
+    height:100%;
+    width:50%;
+    
+}
+.formcontainer{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    right: 10%;
+}
+.formcontainer h1{
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 45.5px;
+    font-weight: bold;
+}
+
+.normal{
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: bold;
+    margin-bottom: 40px !important;
+    
+}
+.regtext{
+    color: #A0AEC0;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 700;
+    margin-top: 30px !important;
+    text-align: center;
+    
+}
+
+.textField{
+     background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    box-sizing: border-box;
+    padding-bottom: 5px !important;
+    margin-bottom: 25px !important;
+    
+}
+.textField label{
+    padding-left: 20px !important;
+}
+.rememberme label{
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.btnstyle{
+    text-transform: 'lowercase';
+}
+
+.logocontainer{
+    position: absolute;
+    left: 60%; 
+    top: 40%;
+    /* margin-left: 30%; */
+}
+.image{
+    text-align: center;
+    width: 300.65px;
+    height: 95.21px;
+    left: 50px;
+    float: none;
+    display: block;
+}
+.headp{
+    color: #634699;
+    font-weight: 50px;
+}
+ 
+
+@media(max-width:700px){
+    .left{
+        height: 75%;
+        width: 100%;
+        overflow: auto;
+    }
+    .formcontainer{
+        text-align: center;
+        left:10%;
+        /* right: 10%; */
+        top:10%;
+    }
+    .logocontainer{
+        position: absolute;
+        right: 10%;
+        top: 80%;
+        left: 8%;
+    }
+    .image{
+        float: none;
+    display: block;
+        width: 150.65px;
+        height: 85.21px;
+        
+    }
+}
