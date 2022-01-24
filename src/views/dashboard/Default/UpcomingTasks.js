@@ -22,7 +22,7 @@ import {
 
 const usestyles = makeStyles({
   card: {
-    maxWidth: "700px",
+    maxWidth: "1000px",
     margin: "auto",
     borderRadius: "5px",
     transition: "0.3s",

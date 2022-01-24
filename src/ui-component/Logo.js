@@ -1,4 +1,4 @@
-import logo from '../assets/cenablecare-logo.png';
+import logo from '../assets/logo.png';
 
 
 

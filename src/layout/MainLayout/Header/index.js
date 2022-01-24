@@ -28,6 +28,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Image from "../../../assets/dashboard-bg.png";
+import {MemoryRouter} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -144,9 +145,11 @@ const Header = () => {
                     alt="account"
                     className={classes.image}
                   />
+                  
                   <Link to="/login" className={classes.link}>
                     Sign in
                   </Link>
+                  
                 </IconButton>
               </Box>
             </Toolbar>
